@@ -1,0 +1,87 @@
+body {
+  font-family: 'Baloo Bhai 2', cursive;
+  background-image: linear-gradient(to right, #ffc65f, white, #a1ffa1);
+}
+body p{
+  margin: 10px;
+  font-size: 23px;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(207, 206, 206);
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+section{
+  display: grid;
+  grid-template-columns: 40% 40% 40%;
+}
+
+.controls, .results {
+  flex: 1;
+  padding: 10px;
+}
+
+form p:nth-of-type(1) {
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background-image: linear-gradient(to bottom, #ffc65f, white, #a1ffa1);
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+img {
+  max-height: 20vh;
+  /* max-width: 50vw; */
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+}
