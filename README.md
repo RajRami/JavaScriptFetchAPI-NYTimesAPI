@@ -1,3 +1,5 @@
 # Assignment4
 Reading from an API
-<p>As we discussed in the class that the API that I have choosen, does not provide any query parameter so I have added the url direclty with one single searchTerm and api-key.</p>
+<p>Created a simple webpage that displays article according to serchTerm provided by calling an API.</p>
+Visit <a href=https://developer.nytimes.com/apis>https://developer.nytimes.com/apis</a> for more information on nytimes API
+
